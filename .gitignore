@@ -1,0 +1,10 @@
+**/.vs/*
+**/.vscode/*
+build/*
+out/*
+.clangd/*
+.cache/*
+CMakeSettings.json
+compile_commands.json
+
+ext/sfml*
