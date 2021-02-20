@@ -15,7 +15,6 @@ int main() {
 	std::vector<std::string> words = loadWords(filename);
 
 	std::string word = words.at(random_range(0, words.size()));
-	std::cout << word << std::endl;
 	int lives = word.length();
 	int word_length = word.length();
 	std::vector<char> wrongGuesses, foundCharacters;
